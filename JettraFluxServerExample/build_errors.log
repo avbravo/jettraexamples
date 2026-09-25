@@ -1,0 +1,661 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] Unrecognised tag: 'settings' (position: START_TAG seen ...</profiles>\n    <settings>... @50:15)  @ /home/avbravo/.m2/settings.xml, line 50, column 15
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.jettraflux.example:JettraFluxExample >--------------
+[INFO] Building JettraFluxExample 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ JettraFluxExample ---
+[INFO] Deleting /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ JettraFluxExample ---
+[INFO] Copying 4 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ JettraFluxExample ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 35 source files with javac [debug target 25] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[28,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[29,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[30,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[31,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[39,35] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.String)
+  location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[40,35] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.String)
+  location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[48,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[60,39] cannot find symbol
+  symbol:   variable CLOUD_UPLOAD
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[65,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[66,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[40,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[56,28] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[57,27] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[38,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[39,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[56,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[33,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[35,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[58,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[26,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[28,57] cannot find symbol
+  symbol:   variable DOCUMENT
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[29,54] cannot find symbol
+  symbol:   variable PHOTOGRAPH
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[30,54] cannot find symbol
+  symbol:   variable FILM
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[31,52] cannot find symbol
+  symbol:   variable BRIEFCASE
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[34,24] cannot find symbol
+  symbol:   method of()
+  location: class io.jettra.flux.widgets.ProgressBar
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[41,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[42,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[77,35] cannot find symbol
+  symbol:   variable DOCUMENT
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilePage.java:[27,23] method of in class io.jettra.flux.widgets.FileUpload cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String,java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilePage.java:[33,39] cannot find symbol
+  symbol:   variable CLOUD_UPLOAD
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OverlayPage.java:[27,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OverlayPage.java:[34,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[27,54] cannot find symbol
+  symbol:   variable FOLDER
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[29,53] cannot find symbol
+  symbol:   variable FOLDER
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[30,53] cannot find symbol
+  symbol:   variable FOLDER
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[35,53] cannot find symbol
+  symbol:   variable FOLDER
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[37,62] cannot find symbol
+  symbol:   variable PHOTOGRAPH
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[38,57] cannot find symbol
+  symbol:   variable PHOTOGRAPH
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[39,60] cannot find symbol
+  symbol:   variable PHOTOGRAPH
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[57,49] cannot find symbol
+  symbol:   variable CHEVRON_DOWN
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[57,79] cannot find symbol
+  symbol:   variable MINUS
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MediaPage.java:[28,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MediaPage.java:[30,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[27,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[28,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[29,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[32,31] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.String)
+  location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[33,31] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.String)
+  location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[34,31] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.String)
+  location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[51,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[66,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderSummaryPage.java:[26,35] cannot find symbol
+  symbol:   variable CHECK_CIRCLE
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderSummaryPage.java:[77,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[26,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[37,25] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[38,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[39,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[42,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[83,25] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+  required: java.lang.String,java.lang.String
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[84,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[28,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[55,31] cannot find symbol
+  symbol:   method add(io.jettra.flux.core.Widget)
+  location: variable col of type io.jettra.flux.widgets.Column
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[75,39] cannot find symbol
+  symbol:   variable DOTS_VERTICAL
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[81,43] cannot find symbol
+  symbol:   variable CALENDAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[37,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[46,23] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[51,47] cannot find symbol
+  symbol:   variable LOCATION_MARKER
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[58,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[27,23] method of in class io.jettra.flux.widgets.ChartsLine cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[32,21] method of in class io.jettra.flux.widgets.CharsBar cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[37,21] method of in class io.jettra.flux.widgets.CharsPie cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[42,26] method of in class io.jettra.flux.widgets.CharsDoughnut cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[38,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[39,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[40,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[41,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[42,39] cannot find symbol
+  symbol:   variable STAR
+  location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[58,28] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[60,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[33,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[47,20] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[48,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[69,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+  required: io.jettra.flux.core.Widget[]
+  found:    java.lang.String
+  reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[INFO] 86 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.937 s
+[INFO] Finished at: 2026-07-15T10:42:23-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project JettraFluxExample: Compilation failure: Compilation failure: 
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[28,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[29,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[30,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MenuPage.java:[31,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[39,35] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.String)
+[ERROR]   location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[40,35] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.String)
+[ERROR]   location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/CheckoutFormPage.java:[48,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[60,39] cannot find symbol
+[ERROR]   symbol:   variable CLOUD_UPLOAD
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[65,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/NewProductPage.java:[66,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[40,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[56,28] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ShoppingCartPage.java:[57,27] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[38,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[39,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[56,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderHistoryPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[33,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[35,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileBasicInformationPage.java:[58,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[26,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[28,57] cannot find symbol
+[ERROR]   symbol:   variable DOCUMENT
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[29,54] cannot find symbol
+[ERROR]   symbol:   variable PHOTOGRAPH
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[30,54] cannot find symbol
+[ERROR]   symbol:   variable FILM
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[31,52] cannot find symbol
+[ERROR]   symbol:   variable BRIEFCASE
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[34,24] cannot find symbol
+[ERROR]   symbol:   method of()
+[ERROR]   location: class io.jettra.flux.widgets.ProgressBar
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[41,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[42,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilesPage.java:[77,35] cannot find symbol
+[ERROR]   symbol:   variable DOCUMENT
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilePage.java:[27,23] method of in class io.jettra.flux.widgets.FileUpload cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String,java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/FilePage.java:[33,39] cannot find symbol
+[ERROR]   symbol:   variable CLOUD_UPLOAD
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OverlayPage.java:[27,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OverlayPage.java:[34,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[27,54] cannot find symbol
+[ERROR]   symbol:   variable FOLDER
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[29,53] cannot find symbol
+[ERROR]   symbol:   variable FOLDER
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[30,53] cannot find symbol
+[ERROR]   symbol:   variable FOLDER
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[35,53] cannot find symbol
+[ERROR]   symbol:   variable FOLDER
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[37,62] cannot find symbol
+[ERROR]   symbol:   variable PHOTOGRAPH
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[38,57] cannot find symbol
+[ERROR]   symbol:   variable PHOTOGRAPH
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[39,60] cannot find symbol
+[ERROR]   symbol:   variable PHOTOGRAPH
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[57,49] cannot find symbol
+[ERROR]   symbol:   variable CHEVRON_DOWN
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TreePage.java:[57,79] cannot find symbol
+[ERROR]   symbol:   variable MINUS
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MediaPage.java:[28,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MediaPage.java:[30,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[27,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[28,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[29,28] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[32,31] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.String)
+[ERROR]   location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[33,31] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.String)
+[ERROR]   location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[34,31] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.String)
+[ERROR]   location: class io.jettra.flux.widgets.RadioButton
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[51,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductListPage.java:[66,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderSummaryPage.java:[26,35] cannot find symbol
+[ERROR]   symbol:   variable CHECK_CIRCLE
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/OrderSummaryPage.java:[77,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[26,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[37,25] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[38,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[39,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[42,24] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[83,25] method of in class io.jettra.flux.widgets.Checkbox cannot be applied to given types;
+[ERROR]   required: java.lang.String,java.lang.String
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/MailInboxPage.java:[84,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[28,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[55,31] cannot find symbol
+[ERROR]   symbol:   method add(io.jettra.flux.core.Widget)
+[ERROR]   location: variable col of type io.jettra.flux.widgets.Column
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[75,39] cannot find symbol
+[ERROR]   symbol:   variable DOTS_VERTICAL
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/TasklistPage.java:[81,43] cannot find symbol
+[ERROR]   symbol:   variable CALENDAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[37,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[46,23] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[51,47] cannot find symbol
+[ERROR]   symbol:   variable LOCATION_MARKER
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[57,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProfileListPage.java:[58,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[27,23] method of in class io.jettra.flux.widgets.ChartsLine cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[32,21] method of in class io.jettra.flux.widgets.CharsBar cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[37,21] method of in class io.jettra.flux.widgets.CharsPie cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChartsPage.java:[42,26] method of in class io.jettra.flux.widgets.CharsDoughnut cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[38,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[39,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[40,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[41,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[42,39] cannot find symbol
+[ERROR]   symbol:   variable STAR
+[ERROR]   location: class io.jettra.flux.widgets.Icon.Heroicons
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[58,28] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ProductOverviewPage.java:[60,23] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[33,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[47,20] method of in class io.jettra.flux.widgets.TextBox cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[48,19] method of in class io.jettra.flux.widgets.Button cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] /home/avbravo/NetBeansProjects/jettrastack_local/JettraWorkspace/FolderExample/JettraFluxExample/src/main/java/com/flux/example/pages/ChatPage.java:[69,19] method of in class io.jettra.flux.widgets.Avatar cannot be applied to given types;
+[ERROR]   required: io.jettra.flux.core.Widget[]
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: varargs mismatch; java.lang.String cannot be converted to io.jettra.flux.core.Widget
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

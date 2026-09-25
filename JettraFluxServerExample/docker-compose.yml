@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  facli-service:
+    # build: .
+    image: avbravo/facli-server:1.0
+    container_name: facli_server_container
+    ports:
+      - "9010:9010"
+    
+    # Soporte interactivo para el Shell administrativo
+    stdin_open: true 
+    tty: true        
+    
+    # Mapeo del volumen persistente nativo
+    volumes:
+      - faclidb:/app/db
+    
+    restart: unless-stopped
+
+volumes:
+  faclidb:
+    name: faclidb
