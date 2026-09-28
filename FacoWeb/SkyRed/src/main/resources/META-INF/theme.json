@@ -1,0 +1,15 @@
+{
+  "name": "SkyRed",
+  "primary": "#d32f2f",
+  "secondary": "#f44336",
+  "background": "#ffebee",
+  "surface": "#ffffff",
+  "onPrimary": "#ffffff",
+  "onSurface": "#212121",
+  "buttonStyle": "border: none; border-radius: 4px; padding: 10px 20px; font-weight: 500; cursor: pointer; transition: background 0.3s; background-color: #d32f2f; color: #ffffff;",
+  "cardStyle": "border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 16px; background-color: #ffffff;",
+  "containerStyle": "padding: 16px; border-radius: 4px;",
+  "textStyle": "font-size: 16px; color: #212121;",
+  "customCss": ".top-btn-today { background-color: #d32f2f; color: white; border: none; padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }\n.sidebar-logo { font-size: 1.5rem; font-weight: 700; color: #d32f2f; padding: 10px 15px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }",
+  "customJs": "console.log('Loaded theme SkyRed');"
+}

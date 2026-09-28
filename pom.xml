@@ -27,5 +27,6 @@
     <module>JettraWebExample</module>
     <module>JettraEEExample</module>
     <module>JettraEEFluxExample</module>
+    <module>FacoWeb</module>
   </modules>
 </project>

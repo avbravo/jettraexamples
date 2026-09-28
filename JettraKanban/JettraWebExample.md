@@ -1,0 +1,89 @@
+# JettraWebExample
+
+## Backlog
+### Modulo llamado Facturas
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-25T14:59:22.742184496" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Crear un modulo llamado Facturas donde se tengan los entity, models, crudview
+que se necesitan para un manejo de facturas. Productos, Clientes, Inventario, Ventas , Compras
+Cuentas por pagar, cuentas por pagar, reportes, abonos. Crear los repository, controller(endpoint)
+
+
+## To Do
+### Configurar el baseUri en el archivo jettra-config.properties
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-26T15:18:13.872104784" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+En JettraWebExample analizar la clase
+Analizar las clases RestClient y configurar el baseUri en el archivo jettra-config.properties 
+baseUri = "http://localhost:8080/api/library/authors"
+
+
+## In Progress
+### Al ingresar a la pagina AuthorPage.java desde el n
+<!-- jettra-meta created-by="avbravo" created-at="2026-06-08T15:12:52.223499788" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Al ingresar a la pagina AuthorPage.java desde el navegador, y presionar el boton guardar
+para registrar un nuevo autor, no se procesa la acción ni se le esta enviando ninguna 
+notificacion del error al usuario, verifica y corrige esto.
+
+
+## Review
+### Mostrar errores
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-26T22:42:43.902207076" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+En la clase AuthorPage.java se generan varios errores al intentar crear un nuevo actor
+mostrar los errores en la interface web y aplicarlo a las demas clases.
+
+
+## Done
+### swagger-ui
+<!-- jettra-meta created-by="avbravo" created-at="2026-06-08T21:49:44.918034536" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+En JettraWebExample no muestra nada en http://localhost:8080/swagger-ui
+es decir al implementar OpenAPI no esta mostrando la interface web
+
+### Actualizar /guide/restclient.md
+<!-- jettra-meta created-by="avbravo" created-at="2026-06-08T15:00:48.946814576" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Actualizar /guide/restclient.md, con los nuevos cambios en la generacion de RestClient
+
+### Implementar las interfaces
+<!-- jettra-meta created-by="avbravo" created-at="2026-06-08T14:45:01.265642469" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Modificar las clases dentro del paquete com.jettra.example.restclient.library
+para que cada una implemente de la interface correspondiente ubicada en el paquete
+com.jettra.example.restclient.library.interfaces
+El contenido de del paquete com.jettra.example.restclient.library, debe ser generado de manera automatica en tiempo de compilacion usando java annotation processing para que el usuario no tenga que escribirlo
+
+Ajustar en JettraRestClient que cuando se usa @RestClient genere la implementacion en el cliente que la usa.
+
+### Reoarganizar Model/Entity/Services
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-25T15:33:14.209579868" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Analizar el uso de Entity a Model y Viceversa, puede ser una clase conversor.
+
+### RestClient
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-26T14:24:26.441680687" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+En el proyecto JettraWebExample crea las clases RestClient para cada uno de los controller
+que estan en el paquete 
+com.jettra.example.controller.library;
+Estos son clientes que se conecten a los enpoints y permiten realizar las operaciones
+JettraRestClient debe contener su propia implementacion RestClient, si no la tiene
+crea la implementación y documenta en JettraRest/guide/restclient.md
+
+### Estudia JettraRest para ver la forma en que crea servicios Rest
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-25T15:28:14.191809381" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+Estudia JettraRest para ver la forma en que crea servicios Rest, y genera los clientes
+Rest.
+Luego diseña un modulo para la gestion de una biblioteca tienen autores, libros, editoriales, lectores
+cada uno debe tener sus formularios para administracion. Los componentes que 
+debes generar seran entity(java record ) correspondientes a cada entidad, luego
+model(Modelos que permitiran integrarse a los formularios tenga en cuenta que
+puede usar las anotaciones @SelectOne, @SelectMany y @ViewDataTable para generar 
+maestro detalles.
+Debe crear las paginas en el paquete .page.library
+Debe crear los entitys dentro del paquete .entity.library
+Debe crear los models dentro del paquete .model.library
+Debe crear los controller dentro del paquete .controller.library
+Debe crear los clientes dentro del paquete .restclient.library
+Debe crear los repository dentro del paquete .repository.library
+Recuerde crear los atributos en messages.properties
+
+### com.jettra.example.services.library
+<!-- jettra-meta created-by="avbravo" created-at="2026-05-26T15:37:51.069461567" sprint-id="afa147e0-0265-43b2-a019-ed664af6d198" -->
+En el paquete com.jettra.example.services.library
+Debe implementar clases para cada clase en el paquete RestClient y esta debe recibir un model y usar el converter para convertirlo a record y llamar a los metodos del RestClient y viceversa convertir de record a model segun sea el caso
+
+

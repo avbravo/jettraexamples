@@ -1,0 +1,6 @@
+{
+  "name": "P2P Mesh Chat",
+  "description": "Un chat p2p descentralizado con radar, envío de archivos, reproducción de MP3/Video, videoconferencia y administración de base de datos local.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
