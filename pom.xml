@@ -28,5 +28,6 @@
     <module>JettraEEExample</module>
     <module>JettraEEFluxExample</module>
     <module>FacoWeb</module>
+    <module>JettraStoreExample</module>
   </modules>
 </project>

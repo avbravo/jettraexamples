@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.jettra.examples</groupId>
+    <artifactId>JettraStoreExample</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>JettraStoreExample</name>
+    <description>Ejemplos de JettraStore con JettraDriver, multimodelo y modos RAM y DISK_MEMORY</description>
+
+    <properties>
+        <maven.compiler.release>25</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jettra.version>1.0-SNAPSHOT</jettra.version>
+        <jettra.frameworks.version>1.0.0-SNAPSHOT</jettra.frameworks.version>
+        <main.class>io.jettra.examples.store.JettraStoreExampleApp</main.class>
+    </properties>
+
+    <dependencies>
+        <!-- Driver JettraStore -->
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraStoreDriver</artifactId>
+            <version>${jettra.version}</version>
+        </dependency>
+
+        <!-- Core JettraStore -->
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraStore</artifactId>
+            <version>${jettra.version}</version>
+        </dependency>
+
+        <!-- JettraMemory (LSM Off-Heap FFM) -->
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraMemory</artifactId>
+            <version>${jettra.version}</version>
+        </dependency>
+
+        <!-- Frameworks auxiliares -->
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraCollections</artifactId>
+            <version>${jettra.frameworks.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraJSON</artifactId>
+            <version>${jettra.frameworks.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.jettra</groupId>
+            <artifactId>JettraJWT</artifactId>
+            <version>${jettra.frameworks.version}</version>
+        </dependency>
+
+        <!-- Testing -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.13.0</version>
+                <configuration>
+                    <release>25</release>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.5.2</version>
+                <configuration>
+                    <argLine>--enable-preview</argLine>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <configuration>
+                    <mainClass>${main.class}</mainClass>
+                    <arguments>
+                        <argument>--all</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
