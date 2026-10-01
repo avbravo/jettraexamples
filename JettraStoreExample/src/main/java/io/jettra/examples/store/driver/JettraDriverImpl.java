@@ -163,6 +163,132 @@ public class JettraDriverImpl implements JettraDriver {
         return client.jql(dbName, query);
     }
 
+    // =========================================================================
+    // Agregaciones, Matemáticas, Finanzas, Estadística y Álgebra Vectorial
+    // =========================================================================
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregate(
+            String dbName, String collection, List<String> groupByFields, List<io.jettra.store.calc.JettraAggregation.AggregateSpec> specs) {
+        return client.aggregate(dbName, collection, groupByFields, specs);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateSum(String dbName, String collection, String field, String groupBy) {
+        return client.aggregateSum(dbName, collection, field, groupBy);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateAvg(String dbName, String collection, String field, String groupBy) {
+        return client.aggregateAvg(dbName, collection, field, groupBy);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMin(String dbName, String collection, String field, String groupBy) {
+        return client.aggregateMin(dbName, collection, field, groupBy);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMax(String dbName, String collection, String field, String groupBy) {
+        return client.aggregateMax(dbName, collection, field, groupBy);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateCount(String dbName, String collection, String groupBy) {
+        return client.aggregateCount(dbName, collection, groupBy);
+    }
+
+    @Override
+    public io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMedian(String dbName, String collection, String field, String groupBy) {
+        return client.aggregateMedian(dbName, collection, field, groupBy);
+    }
+
+    @Override
+    public double evalMath(String expression) { return client.evalMath(expression); }
+    @Override
+    public double sqrt(double x) { return client.sqrt(x); }
+    @Override
+    public double cbrt(double x) { return client.cbrt(x); }
+    @Override
+    public double pow(double b, double e) { return client.pow(b, e); }
+    @Override
+    public double round(double x, int decimals) { return client.round(x, decimals); }
+    @Override
+    public long factorial(int n) { return client.factorial(n); }
+    @Override
+    public long gcd(long a, long b) { return client.gcd(a, b); }
+    @Override
+    public long lcm(long a, long b) { return client.lcm(a, b); }
+    @Override
+    public double hypot(double x, double y) { return client.hypot(x, y); }
+
+    @Override
+    public double pmt(double rate, int nper, double pv) { return client.pmt(rate, nper, pv); }
+    @Override
+    public double fv(double rate, int nper, double pmt, double pv) { return client.fv(rate, nper, pmt, pv); }
+    @Override
+    public double pv(double rate, int nper, double pmt, double fv) { return client.pv(rate, nper, pmt, fv); }
+    @Override
+    public double cagr(double beginningValue, double endingValue, double periods) { return client.cagr(beginningValue, endingValue, periods); }
+    @Override
+    public double compoundInterest(double principal, double annualRate, int compoundsPerYear, double years) {
+        return client.compoundInterest(principal, annualRate, compoundsPerYear, years);
+    }
+    @Override
+    public double simpleInterest(double principal, double annualRate, double years) {
+        return client.simpleInterest(principal, annualRate, years);
+    }
+    @Override
+    public List<io.jettra.store.calc.JettraFinance.AmortizationRow> amortizationSchedule(double principal, double annualRate, int periods) {
+        return client.amortizationSchedule(principal, annualRate, periods);
+    }
+    @Override
+    public double npv(double rate, double... cashFlows) { return client.npv(rate, cashFlows); }
+    @Override
+    public double irr(double... cashFlows) { return client.irr(cashFlows); }
+
+    @Override
+    public double statsMean(List<? extends Number> data) { return client.statsMean(data); }
+    @Override
+    public double statsMedian(List<? extends Number> data) { return client.statsMedian(data); }
+    @Override
+    public double statsStdDev(List<? extends Number> data) { return client.statsStdDev(data); }
+    @Override
+    public double statsVariance(List<? extends Number> data) { return client.statsVariance(data); }
+    @Override
+    public double statsIqr(List<? extends Number> data) { return client.statsIqr(data); }
+    @Override
+    public io.jettra.store.calc.JettraStatistics.StatsSummary statsSummary(List<? extends Number> data) { return client.statsSummary(data); }
+    @Override
+    public double statsCorrelation(List<? extends Number> x, List<? extends Number> y) { return client.statsCorrelation(x, y); }
+    @Override
+    public io.jettra.store.calc.JettraStatistics.RegressionResult statsLinearRegression(List<? extends Number> x, List<? extends Number> y) {
+        return client.statsLinearRegression(x, y);
+    }
+
+    @Override
+    public float dotProduct(float[] v1, float[] v2) { return client.dotProduct(v1, v2); }
+    @Override
+    public float cosineSimilarity(float[] v1, float[] v2) { return client.cosineSimilarity(v1, v2); }
+    @Override
+    public float euclideanDistance(float[] v1, float[] v2) { return client.euclideanDistance(v1, v2); }
+    @Override
+    public float manhattanDistance(float[] v1, float[] v2) { return client.manhattanDistance(v1, v2); }
+    @Override
+    public float chebyshevDistance(float[] v1, float[] v2) { return client.chebyshevDistance(v1, v2); }
+    @Override
+    public float[] crossProduct(float[] v1, float[] v2) { return client.crossProduct(v1, v2); }
+    @Override
+    public double vectorAngleDegrees(float[] v1, float[] v2) { return client.vectorAngleDegrees(v1, v2); }
+    @Override
+    public float[] vectorNormalize(float[] v) { return client.normalize(v); }
+    @Override
+    public float[] vectorAdd(float[] v1, float[] v2) { return client.vectorAdd(v1, v2); }
+    @Override
+    public float[] vectorSubtract(float[] v1, float[] v2) { return client.vectorSubtract(v1, v2); }
+    @Override
+    public float[] vectorCentroid(List<float[]> vectors) { return client.centroid(vectors); }
+
     @Override
     public List<String> listDatabases() {
         return client.listDatabases();

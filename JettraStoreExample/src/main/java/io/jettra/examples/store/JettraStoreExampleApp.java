@@ -55,6 +55,9 @@ public class JettraStoreExampleApp {
             // 11. Consultas SQL, Paginación Predictiva y LazyPagedCursor
             SqlAndCursorExample.run(driver);
 
+            // 12. Analítica Avanzada, Agregaciones, Matemáticas, Finanzas y Vectores
+            io.jettra.examples.store.calc.AnalyticsAndCalcExample.run(driver);
+
             // Catálogo final de bases de datos registradas
             ConsoleColor.printHeader("RESUMEN DEL CATÁLOGO DE BASES DE DATOS");
             var dbs = driver.listDatabases();

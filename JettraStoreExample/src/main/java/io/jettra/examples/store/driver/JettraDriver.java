@@ -123,6 +123,65 @@ public interface JettraDriver extends AutoCloseable {
     JettraQLProcessor.JQLResult jql(String dbName, String query);
 
     // =========================================================================
+    // Agregaciones, Matemáticas, Finanzas, Estadística y Álgebra Vectorial
+    // =========================================================================
+
+    // Agregaciones
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregate(
+        String dbName, String collection, List<String> groupByFields, List<io.jettra.store.calc.JettraAggregation.AggregateSpec> specs);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateSum(String dbName, String collection, String field, String groupBy);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateAvg(String dbName, String collection, String field, String groupBy);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMin(String dbName, String collection, String field, String groupBy);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMax(String dbName, String collection, String field, String groupBy);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateCount(String dbName, String collection, String groupBy);
+    io.jettra.store.calc.JettraAggregation.AggregationResult aggregateMedian(String dbName, String collection, String field, String groupBy);
+
+    // Matemáticas
+    double evalMath(String expression);
+    double sqrt(double x);
+    double cbrt(double x);
+    double pow(double b, double e);
+    double round(double x, int decimals);
+    long factorial(int n);
+    long gcd(long a, long b);
+    long lcm(long a, long b);
+    double hypot(double x, double y);
+
+    // Finanzas
+    double pmt(double rate, int nper, double pv);
+    double fv(double rate, int nper, double pmt, double pv);
+    double pv(double rate, int nper, double pmt, double fv);
+    double cagr(double beginningValue, double endingValue, double periods);
+    double compoundInterest(double principal, double annualRate, int compoundsPerYear, double years);
+    double simpleInterest(double principal, double annualRate, double years);
+    List<io.jettra.store.calc.JettraFinance.AmortizationRow> amortizationSchedule(double principal, double annualRate, int periods);
+    double npv(double rate, double... cashFlows);
+    double irr(double... cashFlows);
+
+    // Estadística
+    double statsMean(List<? extends Number> data);
+    double statsMedian(List<? extends Number> data);
+    double statsStdDev(List<? extends Number> data);
+    double statsVariance(List<? extends Number> data);
+    double statsIqr(List<? extends Number> data);
+    io.jettra.store.calc.JettraStatistics.StatsSummary statsSummary(List<? extends Number> data);
+    double statsCorrelation(List<? extends Number> x, List<? extends Number> y);
+    io.jettra.store.calc.JettraStatistics.RegressionResult statsLinearRegression(List<? extends Number> x, List<? extends Number> y);
+
+    // Álgebra Vectorial
+    float dotProduct(float[] v1, float[] v2);
+    float cosineSimilarity(float[] v1, float[] v2);
+    float euclideanDistance(float[] v1, float[] v2);
+    float manhattanDistance(float[] v1, float[] v2);
+    float chebyshevDistance(float[] v1, float[] v2);
+    float[] crossProduct(float[] v1, float[] v2);
+    double vectorAngleDegrees(float[] v1, float[] v2);
+    float[] vectorNormalize(float[] v);
+    float[] vectorAdd(float[] v1, float[] v2);
+    float[] vectorSubtract(float[] v1, float[] v2);
+    float[] vectorCentroid(List<float[]> vectors);
+
+    // =========================================================================
     // Gestión del Catálogo
     // =========================================================================
 

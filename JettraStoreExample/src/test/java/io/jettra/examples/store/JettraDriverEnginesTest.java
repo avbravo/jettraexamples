@@ -179,4 +179,44 @@ class JettraDriverEnginesTest {
         List<Map<String, Object>> batch = cursor.fetchNextPage();
         assertEquals(4, batch.size());
     }
+    @Test
+    void testAnalyticsAndCalculations() {
+        String dbName = "test_calc_engines_db";
+        driver.getDatabase(dbName, StorageMode.JVM_RAM);
+        DocumentEngine sales = driver.getDocumentEngine(dbName, "orders");
+
+        sales.insert("o1", Map.of("zone", "North", "val", 100.0));
+        sales.insert("o2", Map.of("zone", "North", "val", 200.0));
+        sales.insert("o3", Map.of("zone", "South", "val", 500.0));
+
+        // 1. Aggregations
+        var agg = driver.aggregateSum(dbName, "orders", "val", "zone");
+        assertEquals(2, agg.totalGroups());
+
+        // 2. Math
+        assertEquals(10.0, driver.sqrt(100.0), 0.001);
+        assertEquals(5.0, driver.hypot(3.0, 4.0), 0.001);
+        assertEquals(720L, driver.factorial(6));
+
+        // 3. Finance
+        double pmt = driver.pmt(0.05 / 12.0, 360, 200000.0);
+        assertTrue(pmt > 1000.0);
+        double cagr = driver.cagr(100.0, 200.0, 3.0);
+        assertTrue(cagr > 25.0);
+
+        // 4. Statistics
+        var nums = List.of(10.0, 20.0, 30.0, 40.0, 50.0);
+        assertEquals(30.0, driver.statsMean(nums), 0.001);
+        assertEquals(30.0, driver.statsMedian(nums), 0.001);
+
+        // 5. Vectors
+        float[] v1 = new float[]{1f, 0f, 0f};
+        float[] v2 = new float[]{0f, 1f, 0f};
+        assertEquals(0f, driver.dotProduct(v1, v2), 0.001f);
+        float[] cross = driver.crossProduct(v1, v2);
+        assertEquals(1f, cross[2], 0.001f);
+
+        // 6. Run example end-to-end
+        io.jettra.examples.store.calc.AnalyticsAndCalcExample.run(driver);
+    }
 }
