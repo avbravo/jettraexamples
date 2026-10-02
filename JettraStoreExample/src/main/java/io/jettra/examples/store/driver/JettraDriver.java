@@ -185,6 +185,20 @@ public interface JettraDriver extends AutoCloseable {
     // Gestión del Catálogo
     // =========================================================================
 
+    // =========================================================================
+    // Streaming por Chunks y Listener Anti-OOM de JettraPolice Sentinel
+    // =========================================================================
+
+    void addPoliceEventListener(io.jettra.driver.listener.JettraPoliceEventListener listener);
+
+    void removePoliceEventListener(io.jettra.driver.listener.JettraPoliceEventListener listener);
+
+    io.jettra.store.core.StreamResponse<Map<String, Object>> streamFindAll(String dbName, String collection);
+
+    io.jettra.store.core.StreamResponse<Map<String, Object>> streamFindAll(String dbName, String collection, int limit);
+
+    List<Map<String, Object>> findAll(String dbName, String collection);
+
     List<String> listDatabases();
 
     boolean dropDatabase(String dbName);

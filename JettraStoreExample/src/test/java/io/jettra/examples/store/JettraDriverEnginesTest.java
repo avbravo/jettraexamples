@@ -219,4 +219,22 @@ class JettraDriverEnginesTest {
         // 6. Run example end-to-end
         io.jettra.examples.store.calc.AnalyticsAndCalcExample.run(driver);
     }
+
+    @Test
+    void testAntiOomStreamingSentinelExample() {
+        io.jettra.examples.store.police.AntiOomStreamingSentinelExample.run(driver);
+
+        String dbName = "streaming_sentinel_db";
+        try (var stream = driver.streamFindAll(dbName, "catalogo_masivo")) {
+            assertNotNull(stream);
+            assertTrue(stream.getSafeBatchSize() > 0);
+            assertTrue(stream.isSentinelActivated());
+            var all = stream.collectAll();
+            assertEquals(stream.getSafeBatchSize(), all.size());
+        }
+
+        var list = driver.findAll(dbName, "catalogo_masivo");
+        assertNotNull(list);
+        assertEquals(100, list.size());
+    }
 }

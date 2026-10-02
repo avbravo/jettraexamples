@@ -289,6 +289,35 @@ public class JettraDriverImpl implements JettraDriver {
     @Override
     public float[] vectorCentroid(List<float[]> vectors) { return client.centroid(vectors); }
 
+    // =========================================================================
+    // Streaming por Chunks y Listener Anti-OOM de JettraPolice Sentinel
+    // =========================================================================
+
+    @Override
+    public void addPoliceEventListener(io.jettra.driver.listener.JettraPoliceEventListener listener) {
+        client.addPoliceEventListener(listener);
+    }
+
+    @Override
+    public void removePoliceEventListener(io.jettra.driver.listener.JettraPoliceEventListener listener) {
+        client.removePoliceEventListener(listener);
+    }
+
+    @Override
+    public io.jettra.store.core.StreamResponse<Map<String, Object>> streamFindAll(String dbName, String collection) {
+        return client.streamFindAll(dbName, collection);
+    }
+
+    @Override
+    public io.jettra.store.core.StreamResponse<Map<String, Object>> streamFindAll(String dbName, String collection, int limit) {
+        return client.streamFindAll(dbName, collection, limit);
+    }
+
+    @Override
+    public List<Map<String, Object>> findAll(String dbName, String collection) {
+        return client.findAll(dbName, collection);
+    }
+
     @Override
     public List<String> listDatabases() {
         return client.listDatabases();

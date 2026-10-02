@@ -58,6 +58,9 @@ public class JettraStoreExampleApp {
             // 12. Analítica Avanzada, Agregaciones, Matemáticas, Finanzas y Vectores
             io.jettra.examples.store.calc.AnalyticsAndCalcExample.run(driver);
 
+            // 13. Prevención Anti-OOM: Sentinel, Streaming por Chunks y Listeners
+            io.jettra.examples.store.police.AntiOomStreamingSentinelExample.run(driver);
+
             // Catálogo final de bases de datos registradas
             ConsoleColor.printHeader("RESUMEN DEL CATÁLOGO DE BASES DE DATOS");
             var dbs = driver.listDatabases();
