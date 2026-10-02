@@ -61,6 +61,9 @@ public class JettraStoreExampleApp {
             // 13. Prevención Anti-OOM: Sentinel, Streaming por Chunks y Listeners
             io.jettra.examples.store.police.AntiOomStreamingSentinelExample.run(driver);
 
+            // 14. Consultas Masivas findAll() sobre example_factura_db (Millones de Registros)
+            io.jettra.examples.store.query.MassiveFindAllMillionRecordsExample.run(driver);
+
             // Catálogo final de bases de datos registradas
             ConsoleColor.printHeader("RESUMEN DEL CATÁLOGO DE BASES DE DATOS");
             var dbs = driver.listDatabases();
